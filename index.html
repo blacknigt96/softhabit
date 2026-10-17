@@ -3,29 +3,111 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SoftHabit</title>
-<meta name="description" content="SoftHabit — a calm, offline habit tracker for Android.">
+<title>SoftHabit — habit tracker with widgets and no streak guilt</title>
+<meta name="description" content="SoftHabit is an Android habit tracker with home-screen widgets, partial progress and no streaks. A missed day breaks nothing. Offline, no account, one-time purchase.">
+<link rel="canonical" href="https://blacknigt96.github.io/softhabit/">
+<link rel="icon" href="assets/icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SoftHabit — a habit tracker where a missed day breaks nothing">
+<meta property="og:description" content="Mark the day from a home-screen widget. Record half when you did half. Keep everything on your phone. Android, free for four habits, Pro is a one-time purchase.">
+<meta property="og:image" content="https://blacknigt96.github.io/softhabit/assets/og.jpg">
+<meta property="og:url" content="https://blacknigt96.github.io/softhabit/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="_style.css">
 </head>
 <body>
-<div class="wrap">
+<div class="wrap landing">
+
 <header>
-  <p class="app">Android</p>
-  <h1>SoftHabit</h1>
+  <img src="assets/icon-192.png" alt="" width="44" height="44">
+  <p class="app">SoftHabit <span style="color:var(--muted);font-weight:400">· Android</span></p>
 </header>
-<p style="font-size:19px;margin-top:26px">A calm habit tracker. Offline, no account, no data
-collected. Mark the day from a home-screen widget, and watch the year fill in.</p>
-<p>Habits fill from 0 % to 100 % instead of being ticked, a missed day breaks nothing, and there
-are no punishing streaks. Your records stay on your phone, and travel with Android’s own backup
-to a new one.</p>
-<h2>Documents</h2>
-<ul>
-  <li><a href="privacy/">Privacy Policy</a></li>
-  <li><a href="terms.html">Terms of Use</a></li>
-</ul>
-<h2>Contact</h2>
-<p><a href="mailto:softhabit.support@gmail.com">softhabit.support@gmail.com</a></p>
-<footer>SoftHabit</footer>
+
+<section class="hero">
+  <div>
+    <h1>A habit tracker where a missed day breaks nothing.</h1>
+    <p class="lead">Mark the day from a home-screen widget. Record half when you did half. Watch
+    the year fill in. No streaks, no account, nothing leaves your phone.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=app.softhabit.habits">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 2.3 13.2 12 3.6 21.7c-.4-.3-.6-.8-.6-1.4V3.7c0-.6.2-1.1.6-1.4zm1.3-.7 11 6.3-2.6 2.6L4.9 1.6zm0 20.8 8.4-8.9 2.6 2.6-11 6.3zM16.9 8.5 20 10.3c1 .6 1 2.8 0 3.4l-3.1 1.8L14.1 12l2.8-3.5z"/></svg>
+      Get it on Google Play
+    </a>
+    <span class="fine">Free for four habits. Pro is a one-time purchase — not a subscription.</span>
+  </div>
+  <img src="assets/1-widget-home.webp" alt="SoftHabit week widget on an Android home screen: three habits, seven days each, the kept days filled in colour" width="540" height="960">
+</section>
+
+<section class="row">
+  <div>
+    <h2>A day fills. It isn't ticked.</h2>
+    <p>Each habit goes from 0 to 100 %. Tap the card for a quarter, hold it to pour. If you did
+    half, the record says half — not “failed”.</p>
+  </div>
+  <div class="shot"><img src="assets/2-day.webp" alt="Day view: habit cards filled to different levels" width="540" height="960" loading="lazy"></div>
+</section>
+
+<section class="row">
+  <div>
+    <h2>Missed a day? That's all that happened.</h2>
+    <p>No chain to keep whole, no counter that resets to zero and takes the month with it. The
+    year view keeps all 365 days in one grid: the fuller a cell, the more you did. You read the
+    pattern, not a score.</p>
+  </div>
+  <div class="shot"><img src="assets/5-year.webp" alt="Year view: a grid of every day of the year for each habit, fuller cells where more was done" width="540" height="960" loading="lazy"></div>
+</section>
+
+<section class="row">
+  <div>
+    <h2>Most days you won't open the app.</h2>
+    <p>Six home-screen widgets — a Today tile, day, week, month, year and a combined view. Tap a
+    cell and the day is written down. The launcher icon itself fills as today's habits get done.</p>
+  </div>
+  <div class="shot"><img src="assets/6-widgets.webp" alt="The widget gallery inside the app, showing the six widget kinds" width="540" height="960" loading="lazy"></div>
+</section>
+
+<section class="grid">
+  <div><h3>Reminders that pick their own hour</h3><p>Leave a reminder on Smart and the app learns when you usually mark that habit, then nudges you a little after. Same-time reminders arrive as one notification.</p></div>
+  <div><h3>Quit habits too</h3><p>A habit you're putting down isn't something you “do”. It asks you in the evening how the day went, and keeps the run of days you held on.</p></div>
+  <div><h3>A focus timer</h3><p>For habits that take time: pick a length, put the phone down. The minutes go into the habit when the circle ends, screen off or on.</p></div>
+  <div><h3>Past days count</h3><p>Fill in days before the habit existed. The record starts where your practice did, not where the form was saved.</p></div>
+  <div><h3>Two scenes, six accents</h3><p>A blue-black night scene or a warm paper day scene. Each habit gets its own icon and colour. Your choice stays chosen.</p></div>
+  <div><h3>Nothing leaves your phone</h3><p>No account, no analytics, no crash reporting. The only network call is Google Play Billing. Android's own backup moves your data to a new phone.</p></div>
+</section>
+
+<section class="plans">
+  <div class="plan">
+    <h3>Free</h3>
+    <p class="price">No account, no ads, no time limit</p>
+    <ul>
+      <li>Four habits</li>
+      <li>The Today widget</li>
+      <li>Every reminder, smart or fixed</li>
+      <li>Day, week, month and year history</li>
+      <li>Night scene</li>
+    </ul>
+  </div>
+  <div class="plan">
+    <h3>Pro</h3>
+    <p class="price">One purchase. Nothing renews.</p>
+    <ul>
+      <li>Unlimited habits</li>
+      <li>All six widgets</li>
+      <li>Both scenes, six accent colours</li>
+      <li>Restores on any phone with your Google account</li>
+    </ul>
+  </div>
+</section>
+
+<p style="margin:10px 0 0"><a class="cta" href="https://play.google.com/store/apps/details?id=app.softhabit.habits">Get it on Google Play</a>
+<span class="fine">Android 8.0 and newer · English and Russian</span></p>
+
+<footer>
+  <a href="privacy/">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="mailto:softhabit.support@gmail.com">softhabit.support@gmail.com</a>
+  <span>Made by an independent developer.</span>
+</footer>
+
 </div>
 </body>
 </html>
